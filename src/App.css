@@ -1,0 +1,20 @@
+/* body{
+    background-color: aqua;
+} */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.maincontain {
+  flex: 1;
+}
+
+footer {
+  
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}

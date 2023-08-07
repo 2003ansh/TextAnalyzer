@@ -1,0 +1,31 @@
+.hover{
+   border:1px solid transparent;
+    transition:all 0.3s ease-in-out;
+}
+.hover:hover{
+   border-bottom:1px solid orange;
+}
+.homeimg{
+   animation: all 2s linear ;
+}
+.hometext{
+   animation: text 2s linear  ;
+   
+}
+@keyframes all{
+   0%{
+      transform:translatex(-1000px);
+   }
+   100%{
+      transform:translatex(0px);
+   }
+}
+
+@keyframes text{
+   0%{
+      transform:translatex(1000px);
+   }
+   100%{
+      transform:translatex(0px);
+   }
+}
